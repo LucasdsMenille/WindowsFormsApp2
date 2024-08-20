@@ -13,6 +13,8 @@ namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
+        
+
         public Form1()
         {
             InitializeComponent();
@@ -50,7 +52,6 @@ namespace WindowsFormsApp2
 
         public void btnInserir_Click(object sender, EventArgs e)
         {
-
             // Obtém os valores dos TextBoxes
             string nomeProduto = txtProduto.Text;
             string qtdeProduto = txtQtde.Text;
@@ -105,6 +106,11 @@ namespace WindowsFormsApp2
         private void btnFechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void lblTotal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
